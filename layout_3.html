@@ -2,10 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="includes/style.css">
+    <script src="includes/script.js"></script>
     <title>Title</title>
 </head>
 <body>
-
+    <div class="wrapper">
+        <div class="big_wrap">
+            <img class="mylogo_3" src="images/logo.png">
+            <button onclick="cube()" id="plus" class="big_plus"><img src="images/Plus.png"></button>
+            <nav role="navigation">
+                <ul class="topnav_3">
+                    <li><a class="active" href="#">Layout 1</a></li>
+                    <li><a href="layout_2.html">Layout 2</a></li>
+                    <li><a href="layout_3.html">Layout 3</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="cube_new"></div>
+        <div class="cube_new o"></div>
+        <div class="cube_new oo"></div>
+        <div class="cube_new ooo"></div>
+        <div id="addingPlace">
+            <!--<div class="cube_new ooo"></div>-->
+        </div>
+    </div>
 </body>
 </html>
+
+
+
+<!--<div id="wrapper">-->
+<!--float left for cubes that are inside, cubes must move according to screen resolution-->
+<!--check for View Port -->
+<!--every new cube is added via javascript-->
+<!--variables in javascript code must be on top we have hoisting that will do this for us-->
+<!--    -->
+<!--</div>-->

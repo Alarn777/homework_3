@@ -4,7 +4,6 @@
 }
 ul {list-style-type: none;}
 li {
-    /*margin-left: 5px;*/
     float: left;
 }
 #wrapper {
@@ -86,7 +85,7 @@ li {
     padding: 10px;
 }
 .foot {
-    height: 70px;
+    height: 50px;
     background-color: #bfbfbf;
 }
 
@@ -125,8 +124,6 @@ li {
     color: #f2f2f2;
     text-decoration: none;
     font-size: 17px;
-
-
 }
 
 /* Change the color of links on hover */
@@ -204,3 +201,108 @@ section {
     width: 213px;
     background-color: #5f2624;
 }
+                        /*File Number three classes*/
+
+
+.big_plus {
+    border: none;
+    height: 456px;
+    position: relative;
+}
+.big_plus img{
+    padding: 180px 206.5px;
+    height: 87px;
+    width: 87px;
+    background-color: white;
+}
+.big_wrap {
+    float: left;
+    position: relative;
+
+
+}
+.topnav_3 {
+    background-color: #b94a48;
+    overflow: hidden;
+    width: 500px;
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav_3 a {
+
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px 52.8px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav_3 a:hover {
+    background-color: #333333;
+    color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav_3 a.active {
+    background-color: #333333;
+    color: white;
+}
+.mylogo_3 {
+    position: absolute;
+}
+.wrapper {
+    height: 1000px;
+    width: 1000px;
+    background-color: darkred;
+}
+.cube_new {
+    margin: 0;
+    float: left;
+    position: relative;
+    /*float: left;*/
+    height: 250px;
+    width: 250px;
+    background-color: red;
+    opacity: 1;
+
+}
+.cube_new:hover {
+    background-color: white;
+}
+.o {
+     opacity: 0.1;
+}
+.oo{
+    opacity: 0.4;
+}
+.ooo {
+    opacity: 0.5;
+}
+/*@media only screen and (max-width: 500px) {*/
+    /*.cube_new {*/
+        /*margin: 0;*/
+        /*position: relative;*/
+        /*float: none;*/
+        /*height: 250px;*/
+        /*width: 250px;*/
+        /*background-color: blue;*/
+        /*opacity: 1;*/
+
+    /*}*/
+    /*.cube_new:hover {*/
+        /*background-color: white;*/
+    /*}*/
+    /*.o {*/
+        /*opacity: 0.1;*/
+    /*}*/
+    /*.oo{*/
+        /*opacity: 0.4;*/
+    /*}*/
+    /*.ooo {*/
+        /*opacity: 0.5;*/
+    /*}*/
+/*}*/
+
